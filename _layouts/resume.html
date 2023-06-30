@@ -48,7 +48,7 @@ layout: default
         </div>
       </section>
 
-      <section id="skills">
+      <!-- <section id="skills">
         <div class="section-title">
           Skills
         </div>
@@ -64,7 +64,7 @@ layout: default
           </div>
           {% endfor %}
         </div>
-      </section>
+      </section> -->
 
       <section id="experience">
         <div class="section-title">
@@ -87,7 +87,118 @@ layout: default
         </div>
       </section>
 
-      <section id="projects">
+      <section id="publication">
+        <div class="section-title">
+          Publication
+        </div>
+        <div class="section-content">
+          {% for pub in site.data.resume.publications %}
+          <div class="block">
+            <div class="block-conference">
+              {{ pub.conference }} | {{ pub.award }}
+            </div>
+            <div class="block-title">
+              {{ pub.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ pub.author }}
+            </div>
+            <div class="block-content">
+              {{ pub.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="patent">
+        <div class="section-title">
+          Patent
+        </div>
+        <div class="section-content">
+          {% for patent in site.data.resume.patents %}
+          <div class="block">
+            <div class="block-conference">
+              {{ patent.type }}
+            </div>
+            <div class="block-title">
+              {{ patent.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ patent.author }}
+            </div>
+            <div class="block-content">
+              {{ patent.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="attendance">
+        <div class="section-title">
+          Attendance
+        </div>
+        <div class="section-content">
+          {% for attendance in site.data.resume.attendances %}
+          <div class="block">
+            <div class="block-conference">
+              {{ attendance.location }}
+            </div>
+            <div class="block-title">
+              {{ attendance.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ attendance.datetime }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="award">
+        <div class="section-title">
+          Award
+        </div>
+        <div class="section-content">
+          {% for award in site.data.resume.awards %}
+          <div class="block-conference">
+            {{ award.org }}
+          </div>
+          <div class="block">
+            <div class="block-title">
+              {{ award.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ award.competition }} | {{ award.year }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="scholarship">
+        <div class="section-title">
+          Scholarship
+        </div>
+        <div class="section-content">
+          {% for scholarship in site.data.resume.scholarships %}
+          <div class="block-conference">
+            {{ scholarship.org }}
+          </div>
+          <div class="block">
+            <div class="block-title">
+              {{ scholarship.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ scholarship.year }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- <section id="projects">
         <div class="section-title">
           Projects
         </div>
@@ -106,7 +217,7 @@ layout: default
           </div>
           {% endfor %}
         </div>
-      </section>
+      </section> -->
 
       <section id="languages">
         <div class="section-title">
