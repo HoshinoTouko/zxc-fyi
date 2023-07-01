@@ -21,6 +21,10 @@ education:
     duration: 2016 - 2020
     location: Wuhan, China
     major: Major in computer science (CS).
+  - university: Affiliated High School of Fujian Normal University
+    duration: 2013 - 2016
+    location: Fuzhou, China
+    major: Major in science.
 
 # skills:
 #   - title: Skill Group 1
@@ -95,6 +99,9 @@ attendances:
   - title: 52nd International Conference on Parallel Processing (ICPP)
     datetime: Aug. 7-10, 2023
     location: Cleone Peterson Eccles Alumni House, Salt Lake City, Utah, USA
+  - title: ACM Turing Award Celebration Conference (TURC) 2023
+    datetime: Jul. 28-30, 2023
+    location: Wanda Reign Wuhan, Wuhan, Hubei, China
   - title: ACM Federated Computing Research Conference (FCRC) 2023
     datetime: Jun. 17-22, 2023
     location: World Center Marriott, Orlando, Florida, USA
