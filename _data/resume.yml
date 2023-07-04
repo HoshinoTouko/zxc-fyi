@@ -42,15 +42,15 @@ experience:
   - title: Teaching Assistant for Computer Architecture
     duration: 2020 - 2022
     company: Software School of Fudan University (Prof. Yi Li)
-    description: Computer architecture course related QAs, design and correction of homework and exams, Chisel based RISC-V CPU evaluation platform design and deployment (Chisel, Docker).
+    description: Computer architecture course-related QAs, design, and correction of homework and exams, Chisel-based RISC-V CPU evaluation platform design and deployment (Chisel, Docker).
   - title: Research Assistant
     duration: 2019 - 2020
     company: Future Network Innovation Lab, Fudan University (Prof. Yang Xu)
-    description: Study of content delivery network (CDN) and its load-balance algorithms.
+    description: Study of the content delivery network (CDN) and its load-balance algorithms.
   - title: Full Stack Intern
     duration: 2018 - 2020
     company: Ninechapter Inc.
-    description: Ninechapters front-end development (React, Django), LintCode front-end development (React, Django), and LintCode online code judgement platform development (C++, Docker).
+    description: Ninechapter front-end development (React, Django), LintCode front-end development (React, Django), and LintCode online code judgment platform development (C++, Docker).
   - title: Student Research Intern
     duration: 2018 - 2019
     company: Student in Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University (Prof. Ming Tang)
@@ -61,41 +61,57 @@ experience:
     description: Study related to machine learning, recommendation algorithms, and recommendation systems.
 
 publications:
+  - title: "SDT: A Low-cost and Topology-reconfigurable Testbed for Network Research"
+    author: <u>Zixuan Chen</u>, Zhigao Zhao, Zijian Li, Jiang Shao, Sen Liu, and Yang Xu
+    conference: CLUSTER 2023
+    award: CCF-B, Acceptance rate 24.6% (32/130)
+    description: Software Defined Topology Testbed (SDT) offers a scalable, cost-effective, and time-efficient solution for conducting diverse network research experiments.
+  - title: Augmenting Distributed AI Training with Loss-tolerant Transmission for Improved Efficiency
+    author: <u>Zixuan Chen</u>, Lei Shi, Yongbo Gao, Xuandong Liu, Xin Ai, Sen Liu, and Yang Xu
+    conference: TURC 2023
+    award: Poster
   - title: "OSP: Boosting Distributed Model Training with 2-stage Synchronization"
     author: <u>Zixuan Chen</u>, Lei Shi, Xuandong Liu, Jiahui Li, Sen Liu, and Yang Xu
     conference: ICPP 2023
-    award: Best paper candidate
+    award: CCF-B, Best Paper candidate
     description: A synchronization approach that enhances the throughput of PS-based DDL training by overlapping the communication with the computation by a 2-stage synchronization strategy.
   - title: Boosting Distributed Machine Learning Training Through Loss-tolerant Transmission Protocol
     author: <u>Zixuan Chen</u>, Lei Shi, Xuandong Liu, Xin Ai, Sen Liu, and Yang Xu
     conference: IWQoS 2023
-    award: Acceptance rate 23.5% (62/264)
+    award: CCF-B, Acceptance rate 23.5% (62/264)
     description: A customized transmission protocol that improves distributed machine learning throughput by properly exploiting link packet loss.
   - title: "Rusen: Rule Semantics Enabler toward Fast TCAM Update for Commodity SDN Switches"
     author: Hao Mei, Ruoshi Sun, Ruyi Yao, Chuhao Chen, Cong Luo, <u>Zixuan Chen</u>, Jiahui Li, Sen Liu, and Yang Xu
     conference: IWQoS 2023
-    award: Acceptance rate 23.5% (62/264)
+    award: CCF-B, Acceptance rate 23.5% (62/264)
     description: A rule semantics enabler enables multiple TCAM update algorithms in commodity SDN switches, which works as a transparent middle layer without modification to network devices.
 
 patents:
   - title: A Receiver-side Multi-origin Scheduling Strategy for PCDN-based Video Streaming and Content Delivery
-    type: Patent of Invention, China, 2023
-    author: 
+    type: Patent of Invention (in-review), China, 2023
+    author: (with ByteDance)
     description:
   - title: A Proactive Redundancy Request Policy for PCDN-based Video Streaming and Content Delivery
-    type: Patent of Invention, China, 2023
-    author: 
+    type: Patent of Invention (in-review), China, 2023
+    author: (with ByteDance)
     description:
+  - title: Distributed Aggregate Communication Method, Apparatus, Device, and Storage Medium
+    type: Patent of Invention (granted), China, 2023
+    author: Second Author (with Peng Cheng Laboratory)
+    description: "This invention, related to communication technology, introduces a distributed collection communication method and related equipment. It sends and receives 'interest packets' between computing nodes in a cluster to process and reduce data. The method is designed to make the Named Data Networking (NDN) architecture compatible with global data reduction algorithms."
   - title: A Method for Projecting Large-scale Topologies Using One SDN Switch
-    type: Patent of Invention, China, 2022
+    type: Patent of Invention (in-review), China, 2022
     author: First author
     description:
   - title: The Best Beautiful Path
-    type: Patent of Invention, China, 2017
+    type: Patent of Invention (granted), China, 2017
     author: Third author
     description: 
 
 attendances:
+  - title: IEEE Cluster 2023
+    datetime: Oct. 31-Nov. 3, 2023
+    location: Hilton Santa Fe Historic Plaza, Santa Fe, New Mexico, USA
   - title: 52nd International Conference on Parallel Processing (ICPP)
     datetime: Aug. 7-10, 2023
     location: Cleone Peterson Eccles Alumni House, Salt Lake City, Utah, USA
