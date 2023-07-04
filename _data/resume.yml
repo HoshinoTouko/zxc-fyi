@@ -110,22 +110,22 @@ patents:
 
 attendances:
   - title: IEEE Cluster 2023
-    datetime: Oct. 31-Nov. 3, 2023
+    datetime: Oct. 31 - Nov. 3, 2023
     location: Hilton Santa Fe Historic Plaza, Santa Fe, New Mexico, USA
   - title: 52nd International Conference on Parallel Processing (ICPP)
-    datetime: Aug. 7-10, 2023
+    datetime: Aug. 7 - 10, 2023
     location: Cleone Peterson Eccles Alumni House, Salt Lake City, Utah, USA
   - title: ACM Turing Award Celebration Conference (TURC) 2023
-    datetime: Jul. 28-30, 2023
+    datetime: Jul. 28 - 30, 2023
     location: Wanda Reign Wuhan, Wuhan, Hubei, China
   - title: ACM Federated Computing Research Conference (FCRC) 2023
-    datetime: Jun. 17-22, 2023
+    datetime: Jun. 17 - 22, 2023
     location: World Center Marriott, Orlando, Florida, USA
   - title: China National Computer Congress (CNCC) 2019
-    datetime: Oct. 17-19, 2019
+    datetime: Oct. 17 - 19, 2019
     location: Golden Rooster Lake Conference Center, Suzhou, Jiangsu, China
   - title: China National Computer Congress (CNCC) 2018
-    datetime: Oct. 25-27, 2018
+    datetime: Oct. 25 - 27, 2018
     location: Hangzhou International Expo Center, Hangzhou, Zhejiang, China
 
 talks:
