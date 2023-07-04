@@ -66,7 +66,7 @@ publications:
     conference: CLUSTER 2023
     award: CCF-B, Acceptance rate 24.6% (32/130)
     description: Software Defined Topology Testbed (SDT) offers a scalable, cost-effective, and time-efficient solution for conducting diverse network research experiments.
-  - title: Augmenting Distributed AI Training with Loss-tolerant Transmission for Improved Efficiency
+  - title: "Augmenting Distributed AI Training with Loss-tolerant Transmission"
     author: <u>Zixuan Chen</u>, Lei Shi, Yongbo Gao, Xuandong Liu, Xin Ai, Sen Liu, and Yang Xu
     conference: TURC 2023
     award: Poster
