@@ -64,12 +64,12 @@ publications:
   - title: "SDT: A Low-cost and Topology-reconfigurable Testbed for Network Research"
     author: <u>Zixuan Chen</u>, Zhigao Zhao, Zijian Li, Jiang Shao, Sen Liu, and Yang Xu
     conference: IEEE CLUSTER 2023
-    award: CCF-B, Acceptance rate 24.6% (32/130)
+    award: CCF-B, acceptance rate 24.6% (32/130)
     description: Software Defined Topology Testbed (SDT) offers a scalable, cost-effective, and time-efficient solution for conducting diverse network research experiments.
   - title: "Augmenting Distributed AI Training with Loss-tolerant Transmission"
     author: <u>Zixuan Chen</u>, Lei Shi, Yongbo Gao, Xuandong Liu, Xin Ai, Sen Liu, and Yang Xu
     conference: ACM TURC 2023
-    award: Poster
+    award: Invited poster
   - title: "OSP: Boosting Distributed Model Training with 2-stage Synchronization"
     author: <u>Zixuan Chen</u>, Lei Shi, Xuandong Liu, Jiahui Li, Sen Liu, and Yang Xu
     conference: ACM ICPP 2023
@@ -78,12 +78,12 @@ publications:
   - title: Boosting Distributed Machine Learning Training Through Loss-tolerant Transmission Protocol
     author: <u>Zixuan Chen</u>, Lei Shi, Xuandong Liu, Xin Ai, Sen Liu, and Yang Xu
     conference: IEEE/ACM IWQoS 2023
-    award: CCF-B, Acceptance rate 23.5% (62/264)
+    award: CCF-B, acceptance rate 23.5% (62/264)
     description: A customized transmission protocol that improves distributed machine learning throughput by properly exploiting link packet loss.
   - title: "Rusen: Rule Semantics Enabler toward Fast TCAM Update for Commodity SDN Switches"
     author: Hao Mei, Ruoshi Sun, Ruyi Yao, Chuhao Chen, Cong Luo, <u>Zixuan Chen</u>, Jiahui Li, Sen Liu, and Yang Xu
     conference: IEEE/ACM IWQoS 2023
-    award: CCF-B, Acceptance rate 23.5% (62/264)
+    award: CCF-B, acceptance rate 23.5% (62/264)
     description: A rule semantics enabler enables multiple TCAM update algorithms in commodity SDN switches, which works as a transparent middle layer without modification to network devices.
 
 patents:
@@ -109,7 +109,7 @@ patents:
     description: 
 
 attendances:
-  - title: IEEE Cluster 2023
+  - title: IEEE International Conference on Cluster Computing (Cluster 2023) 
     datetime: Oct. 31 - Nov. 3, 2023
     location: Hilton Santa Fe Historic Plaza, Santa Fe, New Mexico, USA
   - title: 52nd International Conference on Parallel Processing (ICPP)
