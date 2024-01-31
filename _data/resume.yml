@@ -61,6 +61,11 @@ experience:
     description: Study related to machine learning, recommendation algorithms, and recommendation systems.
 
 publications:
+  - title: "MUSE: A Runtime Incrementally Reconfigurable Network Adapting to HPC Real-Time Traffic"
+    author: Zijian Li, <u>Zixuan Chen</u>, Yiying Tang, Xin Ai, Yuanyi Zhu, Zhigao Zhao, Jiang Shao, Guowei Liu, Sen Liu, Bin Liu, and Yang Xu
+    conference: IEEE IPDPS 2024
+    award: CCF-B, acceptance rate -% (-/-)
+    description: A Dragonfly-based runtime incrementally reconfigurable network topology with optical circuit switch (OCS).
   - title: "SDT: A Low-cost and Topology-reconfigurable Testbed for Network Research"
     author: <u>Zixuan Chen</u>, Zhigao Zhao, Zijian Li, Jiang Shao, Sen Liu, and Yang Xu
     conference: IEEE CLUSTER 2023
