@@ -61,6 +61,21 @@ experience:
     description: Study related to machine learning, recommendation algorithms, and recommendation systems.
 
 publications:
+  - title: "vPIFO: Virtualized Packet Scheduler for Programmable Hierarchical Scheduling in High-Speed Networks"
+    author: Zhiyu Zhang, Shili Chen, Ruyi Yao, Ruoshi Sun, Hao Mei, Hao Wang, <u>Zixuan Chen</u>, Gaojian Fang, Yibo Fan, Wanxin Shi, Sen Liu, and Yang Xu
+    conference: ACM SIGCOMM 2024
+    award: CCF-A, acceptance rate 16.9% (62/366)
+    description: A hardware virtualization solution for programmable hierarchical packet scheduling in MTDCs.
+  - title: "UniFL: Enabling Loss-tolerant Transmission in Federated Learning"
+    author: <u>Zixuan Chen</u>, Yifan Ruan, Sen Liu, and Yang Xu
+    conference: APNet 2024
+    award: CCF-C, acceptance rate 27.3% (24/88)
+    description: A loss-tolerant transmission protocol designed for Federated Learning.
+  - title: "Halflife: An Adaptive Flowlet-based Load Balancer with Fading Timeout in DCNs"
+    author: Sen Liu, Yongbo Gao, <u>Zixuan Chen</u>, Jiarui Ye, Haiyang Xu, Furong. Liang, Wei Yan, Zerui Tian, Quanwei Sun, Zehua Guo, Yang Xu
+    conference: ACM Eurosys 2024
+    award: CCF-A, acceptance rate -% (-/-)
+    description: A novel flowlet-based load balancer that leverages fading FTV to reroute traffic promptly under different workloads without any prior knowledge. 
   - title: "MUSE: A Runtime Incrementally Reconfigurable Network Adapting to HPC Real-Time Traffic"
     author: Zijian Li, <u>Zixuan Chen</u>, Yiying Tang, Xin Ai, Yuanyi Zhu, Zhigao Zhao, Jiang Shao, Guowei Liu, Sen Liu, Bin Liu, and Yang Xu
     conference: IEEE IPDPS 2024
@@ -114,6 +129,12 @@ patents:
     description: 
 
 attendances:
+  - title: ACM Special Interest Group on Data Communication (SIGCOMM) 2024 and APNet 2024
+    datetime: Aug. 4 - 8, 2024
+    location: Sydney, Australia
+  - title: ACM EuroSys 2024 
+    datetime: Apr. 22 - 25, 2024
+    location: Athens, Greece
   - title: IEEE International Conference on Cluster Computing (Cluster 2023) 
     datetime: Oct. 31 - Nov. 3, 2023
     location: Hilton Santa Fe Historic Plaza, Santa Fe, New Mexico, USA
