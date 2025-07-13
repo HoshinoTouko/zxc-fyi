@@ -1,22 +1,20 @@
-// Navigation bar styles
+// Fixed navbar
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: $white-transparent;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid $navbar-border;
+  padding: .8rem 0;
   z-index: 1000;
-  padding: .3rem 0;
+  transition: all .2s ease;
 
-  .navbar-container {
-    max-width: 60rem;
-    margin: 0 auto;
-    padding: 0 1rem;
+  .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
   }
 
   .navbar-brand {
@@ -26,10 +24,6 @@
     a {
       color: $dark-gray;
       text-decoration: none;
-
-      &:hover {
-        color: $accent-color;
-      }
     }
   }
 
@@ -51,12 +45,6 @@
       opacity: 0;
       visibility: hidden;
       transition: all .2s ease;
-
-      &.is-active {
-        transform: translateY(0);
-        opacity: 1;
-        visibility: visible;
-      }
     }
   }
 
@@ -75,10 +63,6 @@
     @media (max-width: $breakpoint) {
       padding: .8rem 1rem;
       border-bottom: 1px solid $light-background;
-
-      &:hover {
-        background-color: $accent-transparent-medium;
-      }
 
       &:last-child {
         border-bottom: 0;
@@ -115,30 +99,50 @@
       transition: all .2s ease;
       transform-origin: center;
     }
-
-    &.is-active {
-      span {
-        background-color: $accent-color;
-
-        &:nth-child(1) {
-          transform: rotate(45deg) translate(5px, 5px);
-        }
-
-        &:nth-child(2) {
-          opacity: 0;
-        }
-
-        &:nth-child(3) {
-          transform: rotate(-45deg) translate(5px, -5px);
-        }
-      }
-    }
   }
 }
 
-// Add top margin to container to account for fixed navbar
-.container {
-  margin-top: 60px;
+// Navbar brand hover state
+.navbar-brand a:hover {
+  color: $accent-color;
+}
+
+// Navbar item hover state for mobile
+@media (max-width: $breakpoint) {
+  .navbar-item:hover {
+    background-color: $accent-transparent-medium;
+  }
+}
+
+// Navbar menu active state for mobile
+@media (max-width: $breakpoint) {
+  .navbar-menu.is-active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+// Navbar burger active state animations
+.navbar-burger.is-active span {
+  background-color: $accent-color;
+
+  &:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  &:nth-child(2) {
+    opacity: 0;
+  }
+
+  &:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+// Add top margin to main container to account for fixed navbar
+.container:not(.navbar .container) {
+  margin-top: 80px;
 }
 
 header {
