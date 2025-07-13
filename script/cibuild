@@ -10,7 +10,7 @@ bundle exec scss-lint --config=.scss-lint.yml
 bundle exec jekyll build
 
 # build English version
-if test -e "./_site/resume.html";then
+if test -e "./_site/index.html";then
   echo "It smokes!"
 else
   echo "Build EN version failed"
@@ -28,7 +28,7 @@ fi
 # build with Gem
 rm -rf ./_site
 bundle exec jekyll build --config ./_config_gem.yml
-if test -e "./_site/resume.html";then
+if test -e "./_site/index.html";then
   echo "It smokes!"
 else
   echo "Build EN version with Gem failed"
