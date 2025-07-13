@@ -17,6 +17,27 @@ $accent-color:     #0E419C;
 $light-gray:       #ecf0f1;
 $border-color:     #e9ecef;
 
+// Additional color variables
+$white:            #fff;
+$black:            #000;
+$dark-gray:        #1a1a1a;
+$medium-gray:      #495057;
+$light-border:     #f5f5f5;
+$navbar-border:    #e0e0e0;
+$light-background: #f0f0f0;
+$footer-color:     #95a5a6;
+$dark-text:        #212529;
+
+// Transparent color variables
+$accent-transparent-light: rgba(14, 65, 156, .03);
+$accent-transparent-medium: rgba(14, 65, 156, .05);
+$accent-transparent-strong: rgba(14, 65, 156, .06);
+$accent-transparent-bold: rgba(14, 65, 156, .08);
+$black-transparent-light: rgba(0, 0, 0, .04);
+$black-transparent-medium: rgba(0, 0, 0, .05);
+$black-transparent-strong: rgba(0, 0, 0, .1);
+$white-transparent: rgba(255, 255, 255, .95);
+
 @import "main";
 @import "header";
 @import "body";

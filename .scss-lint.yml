@@ -1,4 +1,5 @@
 scss_files: '_sass/*.scss'
+exclude: 'assets/css/resume.scss'
 linters:
   PropertySortOrder:
     enabled: false

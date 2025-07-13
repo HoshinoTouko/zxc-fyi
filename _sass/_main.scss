@@ -13,13 +13,12 @@ body {
   margin: 0;
   color: $main-color;
   background-color: $background-color;
-  background-image: 
-    repeating-linear-gradient(
+  background-image: repeating-linear-gradient(
       45deg,
       transparent,
       transparent 10px,
-      rgba(14, 65, 156, 0.03) 10px,
-    rgba(14, 65, 156, 0.03) 20px
+      $accent-transparent-light 10px,
+    $accent-transparent-light 20px
     );
   font-weight: 400;
 }
@@ -40,10 +39,10 @@ a {
   max-width: $breakpoint;
   text-align: left;
   padding: 2rem;
-  background: #fff;
+  background: $white;
   border-radius: 12px;
-  border: 1px solid #e9ecef;
-  box-shadow: 0 4px 20px rgba(14, 65, 156, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid $border-color;
+  box-shadow: 0 4px 20px $accent-transparent-bold, 0 1px 3px $black-transparent-medium;
 }
 
 @media screen and (max-width: $breakpoint) {
@@ -56,18 +55,17 @@ a {
     margin: 1rem;
     margin-bottom: 1rem;
     border-radius: 16px;
-    border: 1px solid #e9ecef;
-    box-shadow: 0 2px 12px rgba(14, 65, 156, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+    border: 1px solid $border-color;
+    box-shadow: 0 2px 12px $accent-transparent-strong, 0 1px 2px $black-transparent-light;
   }
 
   body {
-    background-image: 
-      repeating-linear-gradient(
+    background-image: repeating-linear-gradient(
         45deg,
         transparent,
         transparent 8px,
-        rgba(14, 65, 156, 0.03) 8px,
-    rgba(14, 65, 156, 0.03) 16px
+        $accent-transparent-light 8px,
+        $accent-transparent-light 16px
       );
   }
 }

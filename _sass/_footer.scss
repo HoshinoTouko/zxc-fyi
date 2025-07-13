@@ -1,11 +1,11 @@
 footer {
-  color: #95a5a6;
+  color: $footer-color;
   font-size: .85rem;
   min-height: 2rem;
   line-height: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-  border-top: 1px solid #ecf0f1;
+  border-top: 1px solid $light-gray;
   padding-top: 1rem;
 }
