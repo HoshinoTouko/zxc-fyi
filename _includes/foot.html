@@ -1,3 +1,42 @@
-    <footer>
-      Made with <i class="fa fa-heart aria-hidden="true></i> by <a href="https://github.com/crispgm/resume">David Zhang</a>, modified by <a href="https://github.com/hoshinotouko">Touko Hoshino</a>. <span class="print">( <a href="javascript:window.print()">PDF</a> )</span>
+<footer>
+      Made by <a href="https://github.com/hoshinotouko">Touko Hoshino</a>. <span class="print">( <a href="javascript:window.print()">PDF</a> )</span>
     </footer>
+
+<script>
+// Navbar burger menu functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const burger = document.getElementById('navbar-burger');
+  const menu = document.getElementById('navbar-menu');
+  
+  if (burger && menu) {
+    burger.addEventListener('click', function() {
+      burger.classList.toggle('is-active');
+      menu.classList.toggle('is-active');
+    });
+    
+    // Close menu when clicking on a menu item
+    const menuItems = menu.querySelectorAll('.navbar-item');
+    menuItems.forEach(function(item) {
+      item.addEventListener('click', function() {
+        burger.classList.remove('is-active');
+        menu.classList.remove('is-active');
+      });
+    });
+  }
+});
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+</script>

@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name                    = 'jekyll-theme-minimal-resume'
   spec.version                 = '3.1.2'
-  spec.authors                 = ['David Zhang']
+  spec.authors                 = ['Touko Hoshino']
 
   spec.summary                 = 'A minimalist resume template for Jekyll.'
   spec.homepage                = 'https://github.com/crispgm/resume'

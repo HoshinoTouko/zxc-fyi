@@ -1,16 +1,37 @@
 section {
   display: flex;
-  padding-top: 2.4rem;
-  padding-bottom: 2.4rem;
-  padding-left: .2rem;
-  border-bottom: .1rem solid $secondary-color;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 0;
+  border-bottom: 1px solid #f5f5f5;
   hyphens: auto;
+  align-items: flex-start;
+  
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .section-title {
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   text-align: left;
   min-width: 10rem;
+  font-weight: 500;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 3rem;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 30px;
+    height: 2px;
+    background: #0E419C;
+  }
 }
 
 // scss-lint:disable EmptyRule
@@ -23,7 +44,8 @@ section {
 }
 
 .block {
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.3rem;
 
   &:last-child {
     margin-bottom: 0;
@@ -39,39 +61,121 @@ section {
 }
 
 .block-title {
-  font-size: 1.2rem;
-  margin-bottom: .4rem;
-  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: .3rem;
+  font-weight: 600;
+  color: #212529;
 }
 
 .block-subtitle {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  color: $secondary-color;
-}
-
-.block-conference {
-  font-size: 1rem;
-  margin-bottom: .4rem;
-  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+  color: #6c757d;
   font-style: italic;
 }
 
+// Honors section specific styling
+#honors .block-subtitle {
+  color: #000000;
+}
+
+// Attendance section specific styling
+#attendance .block {
+  margin-bottom: 0.5rem;
+}
+
+// Publication section specific styling
+#publication .block {
+  margin-bottom: 1rem;
+  padding-bottom: 0.2rem;
+}
+
+#publication .block-tag-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.2rem;
+  gap: 1rem;
+}
+
+#publication .block-title {
+  margin-bottom: 0.2rem;
+  font-size: 0.95rem;
+}
+
+#publication .block-subtitle {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+#publication .block-content {
+  font-size: 0.95rem;
+}
+
+#attendance .block-tag {
+  display: none;
+}
+
+.block-tag-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: .3rem;
+  gap: 0.5rem;
+}
+
+.block-tag {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  background-color: white;
+  color: #0E419C;
+  border: 1px solid #0E419C;
+  min-width: 80px;
+  text-align: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+}
+
+// All tag types use the same styling as .block-tag
+.conference-tag,
+.scholarship-tag,
+.award-tag,
+.patent-tag {
+  // Inherit all styles from .block-tag
+}
+
+.block-conference {
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-style: italic;
+  color: #495057;
+  flex: 1;
+}
+
 .block-content {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #495057;
+  text-align: justify;
 }
 
 @media screen and (max-width: $breakpoint) {
   section {
     display: block;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .section-title {
-    text-align: center;
-    margin-bottom: 2rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    margin-right: 0;
   }
 
   .section-flex {
@@ -79,8 +183,28 @@ section {
   }
 
   .block-square {
+    width: 100%;
     &:nth-last-child(2) {
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
+  }
+
+  .block {
+    margin-bottom: 1.5rem;
+  }
+
+  .block-content {
+    text-align: left;
+  }
+
+  .block-tag-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .block-tag {
+    min-width: 70px;
+    font-size: 0.7rem;
   }
 }

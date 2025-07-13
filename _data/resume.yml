@@ -1,23 +1,26 @@
 title: Zixuan Chen - Résumé
 name: Zixuan Chen
-jobtitle: Ph. D. Candidate
+jobtitle: Researcher at Cloud Computing Research Institute, China Telecom
 contact:
   - icon: fa-envelope
-    text: i@zxc.fyi
+    text: i[at]zxc.fyi
   # - icon: fa-phone-square
   #   text: your-phone-num
   - icon: fa-globe
     text: Blog
     link: https://touko.moe
-  - icon: fa-github
+  - icon: fa-brands fa-github
     text: GitHub
     link: https://github.com/hoshinotouko
+  - icon: fa-brands fa-google-scholar
+    text: Scholar
+    link: https://scholar.google.com/citations?user=W9chZ6sAAAAJ&hl=zh-CN
 education:
-  - university: Ph. D. at Fudan University
+  - university: Ph. D. from Fudan University
     duration: 2020 - 2025
     location: Shanghai, China
     major: Major in computer network, including distributed deep learning (DDL or DML), datacenter network (DCN), and content delivery network (CDN). (Prof. Yang Xu)
-  - university: B. S. with Honors at Wuhan University
+  - university: B. S. with Honors from Wuhan University
     duration: 2016 - 2020
     location: Wuhan, China
     major: Major in computer science (CS).
@@ -35,10 +38,10 @@ education:
 #     items: Sed do, Eiusmod, Tempor, Incididunt
 
 experience:
-  - title: Management Assistant
-    duration: 2020 - 2024
-    company: School of Computer Science at Fudan University
-    description: Daily content maintenance for the institute website.
+  - title: Researcher
+    duration: 2025 - Present
+    company: Cloud Computing Research Institute, China Telecom
+    description: Research on AI infra in cloud computing.
   - title: Teaching Assistant for Computer Architecture
     duration: 2020 - 2022
     company: Software School of Fudan University (Prof. Yi Li)
@@ -55,148 +58,216 @@ experience:
     duration: 2018 - 2019
     company: Student in Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan University (Prof. Ming Tang)
     description: A joint study of hardware-side channel attacks and machine learning methods.
-  - title: Student Intern
+  - title: Student Research Intern
     duration: 2017 - 2018
     company: Sensing Intelligence, Geoscience and Machine Learning Lab, Wuhan University (Prof. Bo Du)
     description: Study related to machine learning, recommendation algorithms, and recommendation systems.
 
 publications:
+  - title: "CClinguist: An Expert-Free Framework for Future-Compatible Congestion Control Algorithm Identification"
+    author: Jiahui Li, Han Qi, Ruyi Yao, Jialin Wei, Ruoshi Sun, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
+    conference: SIGCOMM
+    award: ACM SIGCOMM 2025 | CCF-A, acceptance rate -% (-/-)
+
+  - title: "NetJIT: Bridging the Gap from Traffic Prediction to Preknowledge for Distributed Machine Learning"
+    author: Xin Ai, Zijian Li, Yuanyi Zhu, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
+    conference: SIGMETRICS
+    award: ACM SIGMETRICS 2025 | CCF-B, acceptance rate 17.5% (67/382)
+    description: 
+  
+  - title: "Enhancing In-network Aggregation with Adaptive Gradient Quantization for Multi-tenant Learning"
+    author: Huifeng Xing, Yinfan Hu, Hao Wang, Yang Chen, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
+    conference: ICDCS
+    award: IEEE ICDCS 2025 | CCF-B, acceptance rate -% (-/-)
+    description: 
+
+  - title: "Rina: Enhancing ring-AllReduce with in-network aggregation in distributed model training"
+    author: <u>Zixuan Chen</u>, Xuandong Liu, Minglin Li, Yinfan Hu, Hao Mei, Huifeng Xing, Hao Wang, Wanxin Shi, Sen Liu, and Yang Xu
+    conference: ICNP
+    award: IEEE ICNP 2024 | CCF-B, acceptance rate 24.3% (50/205)
   - title: "vPIFO: Virtualized Packet Scheduler for Programmable Hierarchical Scheduling in High-Speed Networks"
     author: Zhiyu Zhang, Shili Chen, Ruyi Yao, Ruoshi Sun, Hao Mei, Hao Wang, <u>Zixuan Chen</u>, Gaojian Fang, Yibo Fan, Wanxin Shi, Sen Liu, and Yang Xu
-    conference: ACM SIGCOMM 2024
-    award: CCF-A, acceptance rate 16.9% (62/366)
+    conference: SIGCOMM
+    award: ACM SIGCOMM 2024 | CCF-A, acceptance rate 16.9% (62/366)
     description: A hardware virtualization solution for programmable hierarchical packet scheduling in MTDCs.
   - title: "UniFL: Enabling Loss-tolerant Transmission in Federated Learning"
     author: <u>Zixuan Chen</u>, Yifan Ruan, Sen Liu, and Yang Xu
-    conference: APNet 2024
-    award: CCF-C, acceptance rate 27.3% (24/88)
+    conference: APNet
+    award: APNet 2024 | CCF-C, acceptance rate 27.3% (24/88)
     description: A loss-tolerant transmission protocol designed for Federated Learning.
   - title: "Halflife: An Adaptive Flowlet-based Load Balancer with Fading Timeout in DCNs"
     author: Sen Liu, Yongbo Gao, <u>Zixuan Chen</u>, Jiarui Ye, Haiyang Xu, Furong. Liang, Wei Yan, Zerui Tian, Quanwei Sun, Zehua Guo, Yang Xu
-    conference: ACM Eurosys 2024
-    award: CCF-A, acceptance rate -% (-/-)
+    conference: EuroSys
+    award: ACM EuroSys 2024 | CCF-A, acceptance rate -% (-/-)
     description: A novel flowlet-based load balancer that leverages fading FTV to reroute traffic promptly under different workloads without any prior knowledge. 
   - title: "MUSE: A Runtime Incrementally Reconfigurable Network Adapting to HPC Real-Time Traffic"
     author: Zijian Li, <u>Zixuan Chen</u>, Yiying Tang, Xin Ai, Yuanyi Zhu, Zhigao Zhao, Jiang Shao, Guowei Liu, Sen Liu, Bin Liu, and Yang Xu
-    conference: IEEE IPDPS 2024
-    award: CCF-B, acceptance rate -% (-/-)
+    conference: IPDPS
+    award: IEEE IPDPS 2024 | CCF-B, acceptance rate -% (-/-)
     description: A Dragonfly-based runtime incrementally reconfigurable network topology with optical circuit switch (OCS).
+  - title: "TCAMVisor: High-throughput TCAM Virtualization for Multi-tenant Software Defined Networking"
+    author: Ruoshi Sun, Hao Mei, Ruyi Yao, Hao Wang, Yiren Zhou, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
+    conference: IWQoS
+    award: IEEE/ACM IWQoS 2024 | CCF-B, Best Paper candidate, acceptance rate -% (-/-)
+  - title: "R-PFC: Enhancing RDMA Network With Restricted And Fine-grained PFC"
+    author: Xinyi Li, Minglin Li, Xin Ai, Yongbo Gao, Jiang Shao, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
+    conference: IWQoS
+    award: IEEE/ACM IWQoS 2024 | CCF-B, acceptance rate -% (-/-)
+  - title: "Hierarchical Sketch: An Efficient, Scalable and Latency-aware Content Caching Design for Content Delivery Networks"
+    author: Huifeng Xing, Yuyan Ding, Huiru Huang, <u>Zixuan Chen</u>, Sen Liu, Zehua Guo, Muath Al-Hasan, Mohamed Adel Serhani, and Yang Xu
+    conference: IWQoS
+    award: IEEE/ACM IWQoS 2024 | CCF-B, acceptance rate -% (-/-)
+  
   - title: "SDT: A Low-cost and Topology-reconfigurable Testbed for Network Research"
     author: <u>Zixuan Chen</u>, Zhigao Zhao, Zijian Li, Jiang Shao, Sen Liu, and Yang Xu
-    conference: IEEE CLUSTER 2023
-    award: CCF-B, acceptance rate 24.6% (32/130)
+    conference: CLUSTER
+    award: IEEE CLUSTER 2023 | CCF-B, acceptance rate 24.6% (32/130)
     description: Software Defined Topology Testbed (SDT) offers a scalable, cost-effective, and time-efficient solution for conducting diverse network research experiments.
   - title: "Augmenting Distributed AI Training with Loss-tolerant Transmission"
     author: <u>Zixuan Chen</u>, Lei Shi, Yongbo Gao, Xuandong Liu, Xin Ai, Sen Liu, and Yang Xu
-    conference: ACM TURC 2023
-    award: Invited poster
+    conference: TURC
+    award: ACM TURC 2023 | Invited poster
   - title: "OSP: Boosting Distributed Model Training with 2-stage Synchronization"
     author: <u>Zixuan Chen</u>, Lei Shi, Xuandong Liu, Jiahui Li, Sen Liu, and Yang Xu
-    conference: ACM ICPP 2023
-    award: CCF-B, Best Paper candidate
+    conference: ICPP
+    award: ACM ICPP 2023 | CCF-B, Best Paper candidate
     description: A synchronization approach that enhances the throughput of PS-based DDL training by overlapping the communication with the computation by a 2-stage synchronization strategy.
   - title: Boosting Distributed Machine Learning Training Through Loss-tolerant Transmission Protocol
     author: <u>Zixuan Chen</u>, Lei Shi, Xuandong Liu, Xin Ai, Sen Liu, and Yang Xu
-    conference: IEEE/ACM IWQoS 2023
-    award: CCF-B, acceptance rate 23.5% (62/264)
+    conference: IWQoS
+    award: IEEE/ACM IWQoS 2023 | CCF-B, acceptance rate 23.5% (62/264)
     description: A customized transmission protocol that improves distributed machine learning throughput by properly exploiting link packet loss.
   - title: "Rusen: Rule Semantics Enabler toward Fast TCAM Update for Commodity SDN Switches"
     author: Hao Mei, Ruoshi Sun, Ruyi Yao, Chuhao Chen, Cong Luo, <u>Zixuan Chen</u>, Jiahui Li, Sen Liu, and Yang Xu
-    conference: IEEE/ACM IWQoS 2023
-    award: CCF-B, acceptance rate 23.5% (62/264)
+    conference: IWQoS
+    award: IEEE/ACM IWQoS 2023 | CCF-B, acceptance rate 23.5% (62/264)
     description: A rule semantics enabler enables multiple TCAM update algorithms in commodity SDN switches, which works as a transparent middle layer without modification to network devices.
 
 patents:
   - title: A Receiver-side Multi-origin Scheduling Strategy for PCDN-based Video Streaming and Content Delivery
-    type: Patent of Invention (in-review), China, 2023
+    type: Patent of Invention, China, 2023
+    status: In-review
     author: (with ByteDance)
     description:
   - title: A Proactive Redundancy Request Policy for PCDN-based Video Streaming and Content Delivery
-    type: Patent of Invention (in-review), China, 2023
+    type: Patent of Invention, China, 2023
+    status: In-review
     author: (with ByteDance)
     description:
   - title: Distributed Aggregate Communication Method, Apparatus, Device, and Storage Medium
-    type: Patent of Invention (granted), China, 2023
+    type: Patent of Invention, China, 2023
+    status: Granted
     author: Second Author (with Peng Cheng Laboratory)
-    description: "This invention, related to communication technology, introduces a distributed collection communication method and related equipment. It sends and receives 'interest packets' between computing nodes in a cluster to process and reduce data. The method is designed to make the Named Data Networking (NDN) architecture compatible with global data reduction algorithms."
+    description:
   - title: A Method for Projecting Large-scale Topologies Using One SDN Switch
-    type: Patent of Invention (in-review), China, 2022
+    type: Patent of Invention, China, 2022
+    status: In-review
     author: First author
     description:
   - title: The Best Beautiful Path
-    type: Patent of Invention (granted), China, 2017
+    type: Patent of Invention, China, 2017
+    status: Granted
     author: Third author
     description: 
 
 attendances:
-  - title: ACM Special Interest Group on Data Communication (SIGCOMM) 2024 and APNet 2024
-    datetime: Aug. 4 - 8, 2024
+  - title: CNCC 2025
+    conference: CNCC
+    datetime: Oct. 23-25, 2025
+    location: Harbin, Heilongjiang, China
+  - title: APNet 2025
+    conference: APNet
+    datetime: Aug. 6-8, 2025
+    location: Shanghai, China
+  - title: ICNP 2024
+    conference: ICNP
+    datetime: Oct. 28-31, 2024
+    location: Charleroi, Belgium
+  - title: ACM SIGCOMM 2024 and APNet 2024
+    conference: SIGCOMM & APNet
+    datetime: Aug. 4-8, 2024
     location: Sydney, Australia
   - title: ACM EuroSys 2024 
-    datetime: Apr. 22 - 25, 2024
+    conference: EuroSys
+    datetime: Apr. 22-25, 2024
     location: Athens, Greece
   - title: IEEE International Conference on Cluster Computing (Cluster 2023) 
-    datetime: Oct. 31 - Nov. 3, 2023
+    conference: CLUSTER
+    datetime: Oct. 31-Nov. 3, 2023
     location: Hilton Santa Fe Historic Plaza, Santa Fe, New Mexico, USA
   - title: 52nd International Conference on Parallel Processing (ICPP)
-    datetime: Aug. 7 - 10, 2023
+    conference: ICPP
+    datetime: Aug. 7-10, 2023
     location: Cleone Peterson Eccles Alumni House, Salt Lake City, Utah, USA
   - title: ACM Turing Award Celebration Conference (TURC) 2023
-    datetime: Jul. 28 - 30, 2023
+    conference: TURC
+    datetime: Jul. 28-30, 2023
     location: Wanda Reign Wuhan, Wuhan, Hubei, China
   - title: ACM Federated Computing Research Conference (FCRC) 2023
-    datetime: Jun. 17 - 22, 2023
+    conference: FCRC
+    datetime: Jun. 17-22, 2023
     location: World Center Marriott, Orlando, Florida, USA
   - title: China National Computer Congress (CNCC) 2019
-    datetime: Oct. 17 - 19, 2019
+    conference: CNCC
+    datetime: Oct. 17-19, 2019
     location: Golden Rooster Lake Conference Center, Suzhou, Jiangsu, China
   - title: China National Computer Congress (CNCC) 2018
-    datetime: Oct. 25 - 27, 2018
+    conference: CNCC
+    datetime: Oct. 25-27, 2018
     location: Hangzhou International Expo Center, Hangzhou, Zhejiang, China
 
 talks:
 
-awards:
+honors:
+  - title: A-class scholarship
+    org: Fudan University
+    year: 2023
+    type: Scholarship
+  - title: Outstanding Student
+    org: Fudan University
+    year: 2023
+    type: Award
+  - title: B-class scholarship
+    org: Fudan University
+    year: 2021
+    type: Scholarship
+  - title: Outstanding Graduate
+    org: Wuhan University
+    year: 2020
+    type: Award
   - title: Silver Award
     competition: CCF Collegiate Computer System & Programming contest (CCSP)
-    org: China Computer Federation (CCF)
+    org: CCF
     year: 2019
+    type: Award
+  - title: C-class Scholarship & B-class Outstanding Student (Top 20%)
+    org: Wuhan University
+    year: 2019
+    type: Scholarship
   - title: Silver Award
     competition: 2019 ACM-ICPC China Xian National Invitational Programming Contest
     org: ACM-ICPC
     year: 2019
+    type: Award
+  - title: B-class Scholarship & B-class Outstanding Student (Top 15%)
+    org: Wuhan University
+    year: 2018
+    type: Scholarship
   - title: CCF Certified Student Member (CSP 310)
     competition: Certified Software Professional (CSP)
     org: China Computer Federation (CCF)
     year: 2018
+    type: Award
   - title: Meritorious Winner (Top 6% of 9932 teams)
     competition: Mathematical Contest in Modeling and Interdisciplinary Contest in Modeling (MCM/ICM)
     org: Consortium for Mathematics and its Applications (COMAP)
     year: 2018
+    type: Award
   - title: Second Prize
     competition: Beauty of Programming
     org: Microsoft Research Asia (MSRA)
     year: 2017
-
-scholarships:
-  - title: A-class scholarship
-    org: Fudan University
-    year: 2023
-  - title: Outstanding Student
-    org: Fudan University
-    year: 2023
-  - title: B-class scholarship
-    org: Fudan University
-    year: 2021
-  - title: Outstanding Graduate
-    org: Wuhan University
-    year: 2020
-  - title: C-class Scholarship & B-class Outstanding Student (Top 20%)
-    org: Wuhan University
-    year: 2019
-  - title: B-class Scholarship & B-class Outstanding Student (Top 15%)
-    org: Wuhan University
-    year: 2018
+    type: Award
 
 
 # projects:

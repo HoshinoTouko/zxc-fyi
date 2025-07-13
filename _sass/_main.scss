@@ -1,17 +1,27 @@
 html {
   width: 100%;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 body {
   text-align: center;
   width: 100%;
-  font-family: "Consolas", "Times New Roman", "Noto Sans", "Segoe UI", Roboto, Helvetica, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  font-family: "Georgia", "Times New Roman", "Source Serif Pro", serif;
   -webkit-font-smoothing: antialiased;
   font-size: 1rem;
   margin: 0;
   color: $main-color;
   background-color: $background-color;
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(14, 65, 156, 0.03) 10px,
+      rgba(14, 65, 156, 0.03) 20px
+    );
+  font-weight: 400;
 }
 
 a {
@@ -26,19 +36,39 @@ a {
 .container {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   max-width: $breakpoint;
   text-align: left;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 4px 20px rgba(14, 65, 156, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 @media screen and (max-width: $breakpoint) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .container {
-    padding-left: .4rem;
-    padding-right: .4rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 16px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 2px 12px rgba(14, 65, 156, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  }
+
+  body {
+    background-image: 
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 8px,
+        rgba(14, 65, 156, 0.03) 8px,
+        rgba(14, 65, 156, 0.03) 16px
+      );
   }
 }
 

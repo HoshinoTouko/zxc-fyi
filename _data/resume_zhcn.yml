@@ -9,7 +9,7 @@ contact:
   - icon: fa-globe
     text: wangxiaoer.com
     link: https://crispgm.github.io/resume/resume_zh-CN.html
-  - icon: fa-github
+  - icon: fa-brands fa-github
     text: wangxiaoer
     link: https://github.com/crispgm/resume
 education:

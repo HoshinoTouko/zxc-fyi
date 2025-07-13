@@ -2,7 +2,28 @@
 layout: default
 ---
 
-    <div class="container">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="#top">{{ site.data.resume.name }}</a>
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+          <a href="#education" class="navbar-item">Education</a>
+          <a href="#experience" class="navbar-item">Experience</a>
+          <a href="#publication" class="navbar-item">Publication</a>
+          <a href="#patent" class="navbar-item">Patent</a>
+          <a href="#attendance" class="navbar-item">Attendance</a>
+          <a href="#honors" class="navbar-item">Honors & Awards</a>
+        </div>
+        <div class="navbar-burger" id="navbar-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" id="top">
       <header>
         <div class="name-wrapper">
           <div id="fullname" class="title">
@@ -94,17 +115,17 @@ layout: default
         <div class="section-content">
           {% for pub in site.data.resume.publications %}
           <div class="block">
-            <div class="block-conference">
-              {{ pub.conference }} | {{ pub.award }}
+            <div class="block-tag-container">
+              <span class="block-tag conference-tag">{{ pub.conference }}</span>
+              <div class="block-conference">
+                {{ pub.award }}
+              </div>
             </div>
             <div class="block-title">
-              {{ pub.title }}
+              {{ forloop.index }}. {{ pub.title }}
             </div>
             <div class="block-subtitle">
               {{ pub.author }}
-            </div>
-            <div class="block-content">
-              {{ pub.description }}
             </div>
           </div>
           {% endfor %}
@@ -118,18 +139,22 @@ layout: default
         <div class="section-content">
           {% for patent in site.data.resume.patents %}
           <div class="block">
-            <div class="block-conference">
-              {{ patent.type }}
+            <div class="block-tag-container">
+              {% if patent.status %}
+              <span class="block-tag patent-tag">{{ patent.status }}</span>
+              {% endif %}
             </div>
             <div class="block-title">
               {{ patent.title }}
             </div>
             <div class="block-subtitle">
-              {{ patent.author }}
+              {{ patent.type }} | {{ patent.author }}
             </div>
+            {% if patent.description %}
             <div class="block-content">
               {{ patent.description }}
             </div>
+            {% endif %}
           </div>
           {% endfor %}
         </div>
@@ -141,57 +166,27 @@ layout: default
         </div>
         <div class="section-content">
           {% for attendance in site.data.resume.attendances %}
-          <div class="block">
-            <div class="block-conference">
-              {{ attendance.location }}
-            </div>
-            <div class="block-title">
-              {{ attendance.title }}
-            </div>
-            <div class="block-subtitle">
-              {{ attendance.datetime }}
-            </div>
+        <div class="block">
+          <div class="block-title">
+            {{ attendance.title }}
           </div>
-          {% endfor %}
+          <div class="block-subtitle">
+            {{ attendance.datetime }} | {{ attendance.location }}
+          </div>
+        </div>
+        {% endfor %}
         </div>
       </section>
 
-      <section id="award">
+      <section id="honors">
         <div class="section-title">
-          Award
+          Honors
         </div>
         <div class="section-content">
-          {% for award in site.data.resume.awards %}
-          <div class="block-conference">
-            {{ award.org }}
-          </div>
-          <div class="block">
-            <div class="block-title">
-              {{ award.title }}
-            </div>
+          {% for honor in site.data.resume.honors %}
+          <div class="block-item">
             <div class="block-subtitle">
-              {{ award.competition }} | {{ award.year }}
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </section>
-
-      <section id="scholarship">
-        <div class="section-title">
-          Scholarship
-        </div>
-        <div class="section-content">
-          {% for scholarship in site.data.resume.scholarships %}
-          <div class="block-conference">
-            {{ scholarship.org }}
-          </div>
-          <div class="block">
-            <div class="block-title">
-              {{ scholarship.title }}
-            </div>
-            <div class="block-subtitle">
-              {{ scholarship.year }}
+              {{ forloop.index }}. <strong>{{ honor.title }}</strong>{% if honor.competition %}, {{ honor.competition }}{% endif %}, {{ honor.year }}, {{ honor.org }}
             </div>
           </div>
           {% endfor %}
