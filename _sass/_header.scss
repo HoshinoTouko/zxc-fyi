@@ -28,7 +28,7 @@
       text-decoration: none;
       
       &:hover {
-        color: #0E419C;
+        color: #0e419c;
       }
     }
   }
@@ -68,7 +68,7 @@
     transition: all 0.2s ease;
     
     &:hover {
-      color: #0E419C;
+      color: #0e419c;
       background-color: rgba(14, 65, 156, .05);
     }
     
@@ -118,7 +118,7 @@
     
     &.is-active {
       span {
-        background-color: #0E419C;
+        background-color: #0e419c;
         
         &:nth-child(1) {
           transform: rotate(45deg) translate(5px, 5px);
@@ -171,7 +171,7 @@ header {
 }
 
 .contact {
-  font-size: 0.95rem;
+  font-size: .95rem;
   padding-top: 1rem;
   line-height: 1.8;
 }
@@ -224,6 +224,6 @@ header {
     padding-left: 0;
     display: inline-block;
     margin: 0 1.2rem 0.8rem 0;
-    font-size: 0.9rem;
+    font-size: .9rem;
   }
 }
