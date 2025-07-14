@@ -219,7 +219,23 @@ attendances:
 talks:
 
 honors:
-  - title: A-class scholarship
+  - title: Outstanding Graduate
+    org: Fudan University
+    year: 2025
+    type: Award
+  - title: Outstanding Member of the CYL
+    org: Fudan University
+    year: 2025
+    type: Award
+  - title: A-class Scholarship
+    org: Fudan University
+    year: 2024
+    type: Scholarship
+  - title: Outstanding Student
+    org: Fudan University
+    year: 2024
+    type: Award
+  - title: A-class Scholarship
     org: Fudan University
     year: 2023
     type: Scholarship
@@ -227,7 +243,7 @@ honors:
     org: Fudan University
     year: 2023
     type: Award
-  - title: B-class scholarship
+  - title: B-class Scholarship
     org: Fudan University
     year: 2021
     type: Scholarship
