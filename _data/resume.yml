@@ -98,7 +98,7 @@ publications:
   - title: "Halflife: An Adaptive Flowlet-based Load Balancer with Fading Timeout in DCNs"
     author: Sen Liu, Yongbo Gao, <u>Zixuan Chen</u>, Jiarui Ye, Haiyang Xu, Furong. Liang, Wei Yan, Zerui Tian, Quanwei Sun, Zehua Guo, Yang Xu
     conference: EuroSys
-    award: ACM EuroSys 2024 | CCF-A, acceptance rate -% (-/-)
+    award: ACM EuroSys 2024 | CCF-A, acceptance rate 16% (39/244)
     description: A novel flowlet-based load balancer that leverages fading FTV to reroute traffic promptly under different workloads without any prior knowledge. 
   - title: "MUSE: A Runtime Incrementally Reconfigurable Network Adapting to HPC Real-Time Traffic"
     author: Zijian Li, <u>Zixuan Chen</u>, Yiying Tang, Xin Ai, Yuanyi Zhu, Zhigao Zhao, Jiang Shao, Guowei Liu, Sen Liu, Bin Liu, and Yang Xu
