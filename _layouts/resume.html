@@ -10,10 +10,11 @@ layout: default
         <div class="navbar-menu" id="navbar-menu">
           <a href="#education" class="navbar-item">Education</a>
           <a href="#experience" class="navbar-item">Experience</a>
-          <a href="#publication" class="navbar-item">Publication</a>
-          <a href="#patent" class="navbar-item">Patent</a>
-          <a href="#attendance" class="navbar-item">Attendance</a>
+          <a href="#publication" class="navbar-item">Publications</a>
+          <a href="#services" class="navbar-item">Services</a>
+          <a href="#patent" class="navbar-item">Patents</a>
           <a href="#honors" class="navbar-item">Honors</a>
+          <a href="#attendance" class="navbar-item">Attendances</a>
         </div>
         <div class="navbar-burger" id="navbar-burger">
           <span></span>
@@ -110,7 +111,7 @@ layout: default
 
       <section id="publication">
         <div class="section-title">
-          Publication
+          Publications
         </div>
         <div class="section-content">
           {% for pub in site.data.resume.publications %}
@@ -132,9 +133,27 @@ layout: default
         </div>
       </section>
 
+      <section id="services">
+        <div class="section-title">
+          Services
+        </div>
+        <div class="section-content">
+          {% for service in site.data.resume.services %}
+          <div class="block">
+            <div class="block-title" style="display: inline-block; margin-right: 20px;">
+              {{ service.title }}
+            </div>
+            <span style="display: inline-block; color: #666; font-size: 0.9em;">
+              {{ service.duration }}
+            </span>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
       <section id="patent">
         <div class="section-title">
-          Patent
+          Patents
         </div>
         <div class="section-content">
           {% for patent in site.data.resume.patents %}
@@ -160,24 +179,6 @@ layout: default
         </div>
       </section>
 
-      <section id="attendance">
-        <div class="section-title">
-          Attendance
-        </div>
-        <div class="section-content">
-          {% for attendance in site.data.resume.attendances %}
-        <div class="block">
-          <div class="block-title">
-            {{ attendance.title }}
-          </div>
-          <div class="block-subtitle">
-            {{ attendance.datetime }} | {{ attendance.location }}
-          </div>
-        </div>
-        {% endfor %}
-        </div>
-      </section>
-
       <section id="honors">
         <div class="section-title">
           Honors
@@ -190,6 +191,24 @@ layout: default
             </div>
           </div>
           {% endfor %}
+        </div>
+      </section>
+
+      <section id="attendance">
+        <div class="section-title">
+          Attendances
+        </div>
+        <div class="section-content">
+          {% for attendance in site.data.resume.attendances %}
+        <div class="block">
+          <div class="block-title">
+            {{ attendance.title }}
+          </div>
+          <div class="block-subtitle">
+            {{ attendance.datetime }} | {{ attendance.location }}
+          </div>
+        </div>
+        {% endfor %}
         </div>
       </section>
 
@@ -214,7 +233,7 @@ layout: default
         </div>
       </section> -->
 
-      <section id="languages">
+      <!-- <section id="languages">
         <div class="section-title">
           Languages
         </div>
@@ -230,5 +249,5 @@ layout: default
           </div>
           {% endfor %}
         </div>
-      </section>
+      </section> -->
     </div>

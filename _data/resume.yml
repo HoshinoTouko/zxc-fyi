@@ -143,6 +143,12 @@ publications:
     award: IEEE/ACM IWQoS 2023 | CCF-B, acceptance rate 23.5% (62/264)
     description: A rule semantics enabler enables multiple TCAM update algorithms in commodity SDN switches, which works as a transparent middle layer without modification to network devices.
 
+services:
+  - title: "ICA3PP 2025 Technical Program Committee (TPC) Member"
+    duration: "2025"
+  - title: "APNet 2025 Shadow Organization Committee"
+    duration: "2025"
+
 patents:
   - title: A Receiver-side Multi-origin Scheduling Strategy for PCDN-based Video Streaming and Content Delivery
     type: Patent of Invention, China, 2023
@@ -294,9 +300,9 @@ honors:
 #     description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 #     contribution: Creator and maintainer.
 
-languages:
-  - name: Mandarin
-    proficiency: Native
-  - name: English
-    proficiency: Daily & CS
+# languages:
+#   - name: Mandarin
+#     proficiency: Native
+#   - name: English
+#     proficiency: Daily & CS
   
