@@ -64,10 +64,30 @@ experience:
     description: Study related to machine learning, recommendation algorithms, and recommendation systems.
 
 publications:
+  - title: "Scale-up PIFO: Interleaving Multiple Priority Queues for High Speed Programmable Scheduling"
+    author: Hao Mei, Shili Chen, Xu Chen, <u>Zixuan Chen</u>, Ruyi Yao, Zhiyu Zhang, Hao Wang, Deli Huang, Weiyi Chen, Yibo Fan, and Yang Xu
+    conference: SIGCOMM
+    award: ACM SIGCOMM 2026
+  
+  - title: "Themis: Scheduling-Aware Buffer Management for HBM-Based Hybrid Buffers"
+    author: Zhiyu Zhang, Minkun Xue, Kan Yu, Ruyi Yao, Shili Chen, Hao Mei, <u>Zixuan Chen</u>, Weiyi Chen, Yibo Fan, and Yang Xu
+    conference: NSDI
+    award: NSDI 2026
+
+  - title: "3D-INA: An Exploration of Integrating In-Network Aggregation into 3D Parallelism for LLM Training"
+    author: Huifeng Xing, Hao Wang, Yinfan Hu, Xin Ai, <u>Zixuan Chen</u>, Yang Chen, Wanxin Shi, Sen Liu, and Yang Xu
+    conference: INFOCOM
+    award: IEEE INFOCOM 2026
+
+  - title: "AIRP: Accelerating Multi-tenant Distributed Learning with In-network Resource Pooling"
+    author: Huifeng Xing, Hao Wang, Yang Chen, Yinfan Hu, <u>Zixuan Chen</u>, Xuandong Liu, Zijian Li, Wanxin Shi, Sen Liu, and Yang Xu
+    conference: ToN
+    award: IEEE/ACM Transactions on Networking (2026)
+
   - title: "CClinguist: An Expert-Free Framework for Future-Compatible Congestion Control Algorithm Identification"
     author: Jiahui Li, Han Qi, Ruyi Yao, Jialin Wei, Ruoshi Sun, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
     conference: SIGCOMM
-    award: ACM SIGCOMM 2025 | CCF-A, acceptance rate -% (-/-)
+    award: ACM SIGCOMM 2025 | CCF-A
 
   - title: "NetJIT: Bridging the Gap from Traffic Prediction to Preknowledge for Distributed Machine Learning"
     author: Xin Ai, Zijian Li, Yuanyi Zhu, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
@@ -78,41 +98,48 @@ publications:
   - title: "Enhancing In-network Aggregation with Adaptive Gradient Quantization for Multi-tenant Learning"
     author: Huifeng Xing, Yinfan Hu, Hao Wang, Yang Chen, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
     conference: ICDCS
-    award: IEEE ICDCS 2025 | CCF-B, acceptance rate -% (-/-)
+    award: IEEE ICDCS 2025 | CCF-B
     description: 
 
   - title: "Rina: Enhancing ring-AllReduce with in-network aggregation in distributed model training"
     author: <u>Zixuan Chen</u>, Xuandong Liu, Minglin Li, Yinfan Hu, Hao Mei, Huifeng Xing, Hao Wang, Wanxin Shi, Sen Liu, and Yang Xu
     conference: ICNP
     award: IEEE ICNP 2024 | CCF-B, acceptance rate 24.3% (50/205)
+
   - title: "vPIFO: Virtualized Packet Scheduler for Programmable Hierarchical Scheduling in High-Speed Networks"
     author: Zhiyu Zhang, Shili Chen, Ruyi Yao, Ruoshi Sun, Hao Mei, Hao Wang, <u>Zixuan Chen</u>, Gaojian Fang, Yibo Fan, Wanxin Shi, Sen Liu, and Yang Xu
     conference: SIGCOMM
     award: ACM SIGCOMM 2024 | CCF-A, acceptance rate 16.9% (62/366)
     description: A hardware virtualization solution for programmable hierarchical packet scheduling in MTDCs.
+  
   - title: "UniFL: Enabling Loss-tolerant Transmission in Federated Learning"
     author: <u>Zixuan Chen</u>, Yifan Ruan, Sen Liu, and Yang Xu
     conference: APNet
     award: APNet 2024 | CCF-C, acceptance rate 27.3% (24/88)
     description: A loss-tolerant transmission protocol designed for Federated Learning.
+  
   - title: "Halflife: An Adaptive Flowlet-based Load Balancer with Fading Timeout in DCNs"
     author: Sen Liu, Yongbo Gao, <u>Zixuan Chen</u>, Jiarui Ye, Haiyang Xu, Furong. Liang, Wei Yan, Zerui Tian, Quanwei Sun, Zehua Guo, Yang Xu
     conference: EuroSys
     award: ACM EuroSys 2024 | CCF-A, acceptance rate 16% (39/244)
     description: A novel flowlet-based load balancer that leverages fading FTV to reroute traffic promptly under different workloads without any prior knowledge. 
+  
   - title: "MUSE: A Runtime Incrementally Reconfigurable Network Adapting to HPC Real-Time Traffic"
     author: Zijian Li, <u>Zixuan Chen</u>, Yiying Tang, Xin Ai, Yuanyi Zhu, Zhigao Zhao, Jiang Shao, Guowei Liu, Sen Liu, Bin Liu, and Yang Xu
     conference: IPDPS
     award: IEEE IPDPS 2024 | CCF-B, acceptance rate -% (-/-)
     description: A Dragonfly-based runtime incrementally reconfigurable network topology with optical circuit switch (OCS).
+  
   - title: "TCAMVisor: High-throughput TCAM Virtualization for Multi-tenant Software Defined Networking"
     author: Ruoshi Sun, Hao Mei, Ruyi Yao, Hao Wang, Yiren Zhou, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
     conference: IWQoS
     award: IEEE/ACM IWQoS 2024 | CCF-B, Best Paper candidate, acceptance rate -% (-/-)
+  
   - title: "R-PFC: Enhancing RDMA Network With Restricted And Fine-grained PFC"
     author: Xinyi Li, Minglin Li, Xin Ai, Yongbo Gao, Jiang Shao, <u>Zixuan Chen</u>, Sen Liu, and Yang Xu
     conference: IWQoS
     award: IEEE/ACM IWQoS 2024 | CCF-B, acceptance rate -% (-/-)
+  
   - title: "Hierarchical Sketch: An Efficient, Scalable and Latency-aware Content Caching Design for Content Delivery Networks"
     author: Huifeng Xing, Yuyan Ding, Huiru Huang, <u>Zixuan Chen</u>, Sen Liu, Zehua Guo, Muath Al-Hasan, Mohamed Adel Serhani, and Yang Xu
     conference: IWQoS
@@ -123,20 +150,24 @@ publications:
     conference: CLUSTER
     award: IEEE CLUSTER 2023 | CCF-B, acceptance rate 24.6% (32/130)
     description: Software Defined Topology Testbed (SDT) offers a scalable, cost-effective, and time-efficient solution for conducting diverse network research experiments.
+  
   - title: "Augmenting Distributed AI Training with Loss-tolerant Transmission"
     author: <u>Zixuan Chen</u>, Lei Shi, Yongbo Gao, Xuandong Liu, Xin Ai, Sen Liu, and Yang Xu
     conference: TURC
     award: ACM TURC 2023 | Invited poster
+  
   - title: "OSP: Boosting Distributed Model Training with 2-stage Synchronization"
     author: <u>Zixuan Chen</u>, Lei Shi, Xuandong Liu, Jiahui Li, Sen Liu, and Yang Xu
     conference: ICPP
     award: ACM ICPP 2023 | CCF-B, Best Paper candidate
     description: A synchronization approach that enhances the throughput of PS-based DDL training by overlapping the communication with the computation by a 2-stage synchronization strategy.
+  
   - title: Boosting Distributed Machine Learning Training Through Loss-tolerant Transmission Protocol
     author: <u>Zixuan Chen</u>, Lei Shi, Xuandong Liu, Xin Ai, Sen Liu, and Yang Xu
     conference: IWQoS
     award: IEEE/ACM IWQoS 2023 | CCF-B, acceptance rate 23.5% (62/264)
     description: A customized transmission protocol that improves distributed machine learning throughput by properly exploiting link packet loss.
+  
   - title: "Rusen: Rule Semantics Enabler toward Fast TCAM Update for Commodity SDN Switches"
     author: Hao Mei, Ruoshi Sun, Ruyi Yao, Chuhao Chen, Cong Luo, <u>Zixuan Chen</u>, Jiahui Li, Sen Liu, and Yang Xu
     conference: IWQoS
@@ -144,10 +175,14 @@ publications:
     description: A rule semantics enabler enables multiple TCAM update algorithms in commodity SDN switches, which works as a transparent middle layer without modification to network devices.
 
 services:
-  - title: "ICA3PP 2025 Technical Program Committee (TPC) Member"
-    duration: "2025"
+  - title: "IWQoS 2026 TPC Member and Web Chair"
+    duration: 2026
+  - title: "NAS 2026 TPC Member"
+    duration: 2026
+  - title: "ICA3PP 2025 TPC Member"
+    duration: 2025
   - title: "APNet 2025 Shadow Organization Committee"
-    duration: "2025"
+    duration: 2025
 
 patents:
   - title: A Receiver-side Multi-origin Scheduling Strategy for PCDN-based Video Streaming and Content Delivery
@@ -177,49 +212,58 @@ patents:
     description: 
 
 attendances:
+  - title: IEEE/ACM IWQoS 2026
+    conference: IWQoS
+    datetime: Jun. 29 - Jul. 2, 2026
+    location: Istanbul, Türkiye
+
+  - title: China Net 2025
+    conference: ChinaNet
+    datetime: Sep. 12 - 14, 2025
+    location: Shenyang, China
   - title: CNCC 2025
     conference: CNCC
-    datetime: Oct. 23-25, 2025
-    location: Harbin, Heilongjiang, China
+    datetime: Oct. 23 - 25, 2025
+    location: Harbin, China
   - title: APNet 2025
     conference: APNet
-    datetime: Aug. 6-8, 2025
+    datetime: Aug. 6 - 8, 2025
     location: Shanghai, China
   - title: ICNP 2024
     conference: ICNP
-    datetime: Oct. 28-31, 2024
+    datetime: Oct. 28 - 31, 2024
     location: Charleroi, Belgium
   - title: ACM SIGCOMM 2024 and APNet 2024
     conference: SIGCOMM & APNet
-    datetime: Aug. 4-8, 2024
+    datetime: Aug. 4 - 8, 2024
     location: Sydney, Australia
   - title: ACM EuroSys 2024 
     conference: EuroSys
-    datetime: Apr. 22-25, 2024
+    datetime: Apr. 22 - 25, 2024
     location: Athens, Greece
   - title: IEEE International Conference on Cluster Computing (Cluster 2023) 
     conference: CLUSTER
-    datetime: Oct. 31-Nov. 3, 2023
+    datetime: Oct. 31 - Nov. 3, 2023
     location: Hilton Santa Fe Historic Plaza, Santa Fe, New Mexico, USA
   - title: 52nd International Conference on Parallel Processing (ICPP)
     conference: ICPP
-    datetime: Aug. 7-10, 2023
+    datetime: Aug. 7 - 10, 2023
     location: Cleone Peterson Eccles Alumni House, Salt Lake City, Utah, USA
   - title: ACM Turing Award Celebration Conference (TURC) 2023
     conference: TURC
-    datetime: Jul. 28-30, 2023
+    datetime: Jul. 28 - 30, 2023
     location: Wanda Reign Wuhan, Wuhan, Hubei, China
   - title: ACM Federated Computing Research Conference (FCRC) 2023
     conference: FCRC
-    datetime: Jun. 17-22, 2023
+    datetime: Jun. 17 - 22, 2023
     location: World Center Marriott, Orlando, Florida, USA
   - title: China National Computer Congress (CNCC) 2019
     conference: CNCC
-    datetime: Oct. 17-19, 2019
+    datetime: Oct. 17 - 19, 2019
     location: Golden Rooster Lake Conference Center, Suzhou, Jiangsu, China
   - title: China National Computer Congress (CNCC) 2018
     conference: CNCC
-    datetime: Oct. 25-27, 2018
+    datetime: Oct. 25 - 27, 2018
     location: Hangzhou International Expo Center, Hangzhou, Zhejiang, China
 
 talks:
